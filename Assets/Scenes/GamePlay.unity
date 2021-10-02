@@ -842,7 +842,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 543589413}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.99999994
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1125,7 +1125,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 873391118}
   m_HandleRect: {fileID: 873391117}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1420,6 +1420,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AutoCollectPercentage: 0.1
+  SaveDelay: 5
   ResourcesConfigs:
   - Name: Click
     UnlockCost: 0
@@ -1496,7 +1497,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000022811868, y: 0.000036191217}
+  m_AnchoredPosition: {x: -0.000022811868, y: -0.00000309115}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1312387437
@@ -1910,8 +1911,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2047097195}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.75, y: -0, z: 10}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: -4.29, y: -0.5, z: 10}
+  m_LocalScale: {x: 1.733586, y: 1.733586, z: 0.866793}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
